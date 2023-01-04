@@ -135,15 +135,22 @@ b'Hello World!'
 ```sh
 >>> fruits=['apple', 'banana', 'mango']
 >>> type(fruits)
+<class 'list'>
 >>> len(fruits)
+3
 >>> fruits[0:2]
+['apple', 'banana']
 >>> fruits+['orange', 'papaya']
+['apple', 'banana', 'mango', 'orange', 'papaya']
 >>> fruits.append('orange')
 >>> fruits
+['apple', 'banana', 'mango', 'orange']
 >>> fruits.remove('mango')
 >>> fruits
+['apple', 'banana', 'orange']
 >>> fruits.insert(1, 'mango')
 >>> fruits
+['apple', 'mango', 'banana', 'orange']
 ```
 * Dictionaries
 ```sh
