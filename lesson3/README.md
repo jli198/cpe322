@@ -88,22 +88,36 @@ $ python3
 ```sh
 >>> s='Hello World!'
 >>> type(s)
+<class 'str'>
 >>> s.upper()
+'HELLO WORLD!'
 >>> s.lower()
+'hello world!'
 >>> s.strip('!')
+'Hello World'
 >>> s[0]
+'H'
 >>> s[6:]
+'World!'
 >>> s[6:-1]
+'World'
 >>> len(s)
+12
 >>> b=s.encode()
 >>> b
+b'Hello World!'
 >>> type(b)
+<class 'bytes'>
 >>> c=b.decode()
 >>> c
+'Hello World!'
 >>> type(c)
+<class 'str'>
 >>> t=' This is a simple program.'
 >>> s+t
+'Hello World! This is a simple program.'
 >>> print('"{:s}" has {:d} characters.'.format(s, len(s)))
+"Hello World!' has 12 characters.
 ```
 * Tuples
 ```sh
