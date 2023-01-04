@@ -117,15 +117,19 @@ b'Hello World!'
 >>> s+t
 'Hello World! This is a simple program.'
 >>> print('"{:s}" has {:d} characters.'.format(s, len(s)))
-"Hello World!' has 12 characters.
+'Hello World!' has 12 characters.
 ```
 * Tuples
 ```sh
 >>> veggies=('beet', 'corn', 'kale')
 >>> type(veggies)
+<class 'tuple'>
 >>> len(veggies)
+3
 >>> veggies[0:2]
+('beet', 'corn')
 >>> veggies+('leek', 'okra')
+('beet', 'corn', 'kale', 'leek', 'okra')
 ```
 * Lists
 ```sh
