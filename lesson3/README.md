@@ -156,15 +156,20 @@ b'Hello World!'
 ```sh
 >>> student={'name': 'Mary', 'id': '8776'}
 >>> type(student)
+<class 'dict'>
 >>> student['name']
+'Mary'
 >>> student.items()
+dict_items([('name', 'Mary'), ('id', '8776')])
 >>> student.keys()
+dict_keys(['name', 'id'])
 >>> student.values()
+dict_values(['Mary', '8776'])
 >>> students={'1': {'name': 'Alex', 'grade': 3.8}, 
-...           '2': {'name': 'Barb', 'grade': 2.5}, 
-...           '3': {'name': 'Dave', 'grade': 4.2},
-...           '4': {'name': 'John', 'grade': 4.1},
-...           '5': {'name': 'Mary', 'grade': 3.5}}
+           '2': {'name': 'Barb', 'grade': 2.5}, 
+           '3': {'name': 'Dave', 'grade': 4.2},
+           '4': {'name': 'John', 'grade': 4.1},
+           '5': {'name': 'Mary', 'grade': 3.5}}
 >>> students.keys()
 ```
 * If else
