@@ -171,91 +171,122 @@ dict_values(['Mary', '8776'])
            '4': {'name': 'John', 'grade': 4.1},
            '5': {'name': 'Mary', 'grade': 3.5}}
 >>> students.keys()
+dict_keys(['1', '2', '3', '4', '5'])
 ```
 * If else
 ```sh
 >>> z=25**5
 >>> if z>1000000:
-...     print('More')
-... else:
-...     print('Less')
-...
+      print('More')
+    else:
+      print('Less')
+
+More
 ```
 * If not
 ```sh
 >>> if not 'major' in student.keys():
-...     student['major']='ECE'
-...
+      student['major']='ECE'
 >>> student
 ```
 * For
 ```sh
 >>> for v in s:
-...     print(v, end=' ')
-...
+      print(v, end=' ')
+
 >>> i=0
 >>> for item in fruits:
-...     print('Fruit {:d}: {:s}'.format(i, item))
-...     i=i+1
-...
+      print('Fruit {:d}: {:s}'.format(i, item))
+      i=i+1
+
 >>> for key in student:
-...     print('{:s}: {:s}'.format(key, student[key]))
-...
+      print('{:s}: {:s}'.format(key, student[key]))
+
+dict_keys(['1', '2', '3', '4', '5'])
+Fruit 0: apple
+Fruit 1: mango
+Fruit 2: banana
+Fruit 3: orange
+name: Mary
+id: 8776
 ```
 * While
 ```sh
 >>> i=0
 >>> while i<=10:
-...     if i%2==0:
-...         print(i, end=' ')
-...     i=i+1
-...
+      if i%2==0:
+        print(i, end=' ')
+      i=i+1
+
+0 2 4 6 8 10
 ```
 * Break
 ```sh
 >>> m=1
 >>> for n in range(4, 256, 4):
-...     m=m*n
-...     if m>512:
-...         break
-...     print(m)
-...
+      m=m*n
+      if m>512:
+        break
+      print(m)
+
+4
+32
+384
 ```
 * Continue (or pass)
 ```sh
 >>> grains=['oat', 'rice', 'rye', 'wheat']
 >>> for item in grains:
-...     if item=='rice':
-...         continue
-...     else:
-...         print(item, end=' ')
-...
+      if item=='rice':
+        continue
+      else:
+        print(item, end=' ')
+
+oat rye wheat
 ```
 * Mathematical functions
 ```sh
 >>> import math
 >>> math.ceil(1.5)
+2
 >>> math.floor(1.5)
+1
 >>> math.factorial(10)
+3628800
 >>> math.fmod(10,3)
+1.0
 >>> 10%3
+1
 >>> math.sqrt(64)
+8.0
 >>> math.exp(1)
+2.718281828459045
 >>> math.log(4,2)
+2.0
 >>> math.degrees(1.5707963267948966)
+90.0
 >>> math.radians(90)
+1.5707963267948966
 >>> math.asin(1)
+1.5707963267948966
 >>> math.sin(1.5707963267948966)
+1.0
 >>> math.cos(math.pi)
+-1.0
 ```
 * [Built-in functions](https://docs.python.org/3/library/functions.html)
 ```sh
 >>> r=range(10)
 >>> r
+range(0, 10)
 >>> r[::-1]
+range(9, -1, -1)
 >>> r[::2]
+range(0, 10, 2)
 >>> r[1::3]
+range(1, 10, 3)
 >>> range(10, 110, 10)
+range(10, 110, 10)
 ```
 * Defining functions
 ```sh
@@ -282,6 +313,10 @@ dict_values(['Mary', '8776'])
 ...         print(key, ': ', kwargs[key], sep='')
 ...
 >>> printID(name='Mary', id='8776', major='ECE')
+
+Student Name: Mary
+id: 8776
+major: ECE
 ```
 * Variable-length arguments
 ```sh
@@ -309,29 +344,52 @@ $ python3
 ...           '4':{'name':'John','grade':4.1},
 ...           '5':{'name':'Mary','grade':3.5}}
 >>> student.printRecords(students)
+There are 5 students
+Student 1:
+Name: Alex
+Grade: 3.8
+Student 2:
+Name: Barb
+Grade: 2.5
+Student 3:
+Name: Dave
+Grade: 4.2
+Student 4:
+Name: John
+Grade: 4.1
+Student 5:
+Name: Mary
+Grade: 3.5
 >>> avg=student.averageGrade(students)
 >>> print('The average is {:0.2f}'.format(avg))
+The average is 3.62
 >>> from student import averageGrade
 >>> avg=averageGrade(students)
 >>> print('The average is {:0.2f}'.format(avg))
+The average is 3.62
 ```
 * Read and write files
 ```sh
->>> fp=open('file.txt', 'r')
->>> content=fp.read()
->>> print(content)
->>> fp.close()
->>> exit()
-$ cd
+$ cd lesson3
 $ mkdir demo
 $ cd demo
 $ python3
->>> fo=open('file1.txt', 'w')
+>>> fp=open('file.txt', 'r')
+>>> content=fp.read()
+>>> print(content)
+Python supports more than one programming paradigms including object-oriented programming and structured programming.
+Python is an interpreted language and does not require an explicit compilation step.
+>>> fp.close()
+>>> exit()
+
+>>> fo=open('file.txt', 'w')
 >>> content='This is an example of writing to a file in Python.'
 >>> fo.write(content)
+48
 >>> fo.close()
 >>> exit()
 $ cat file1.txt
+This is an example of writing to file in Python.
 ```
 ### WARNING AGAIN: Don't upgrade the preinstalled Python or pip on Raspberry Pi OS
 * Run pip3 to install/upgrade packages, update the IoT repository, and run Python 3 programs
