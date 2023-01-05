@@ -606,12 +606,66 @@ pi@raspberrypi:~/iot/lesson3 $ python3 temperature.py
 $ cd ~/iot/lesson3/pypy
 $ gcc -o test test.c
 $ time ./test
+1000000.000000
+
+real	0m0.047s
+user	0m0.038s
+sys	0m0.008s
 $ time pypy test.py
+1000000.0
+
+real	0m0.199s
+user	0m0.108s
+sys	0m0.076s
 $ time python test.py
+1000000.0
+
+real	0m1.361s
+user	0m1.300s
+sys	0m0.037s
 $ time python3 test.py
+1000000.0
+
+real	0m1.346s
+user	0m1.308s
+sys	0m0.037s
 $ pypy -m cProfile test.py
+1000000.0
+         1000003 function calls in 9.421 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    9.421    9.421 test.py:1(<module>)
+  1000000    4.671    0.000    4.671    0.000 test.py:1(add)
+        1    4.750    4.750    9.421    9.421 test.py:4(main)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 $ python -m cProfile test.py
+1000000.0
+         1000005 function calls in 1.890 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.890    1.890 test.py:1(<module>)
+  1000000    0.457    0.000    0.457    0.000 test.py:1(add)
+        1    1.433    1.433    1.890    1.890 test.py:4(main)
+        1    0.000    0.000    1.890    1.890 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 $ python3 -m cProfile test.py
+1000000.0
+         1000005 function calls in 2.054 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.054    2.054 test.py:1(<module>)
+  1000000    0.513    0.000    0.513    0.000 test.py:1(add)
+        1    1.541    1.541    2.054    2.054 test.py:4(main)
+        1    0.000    0.000    2.054    2.054 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
 ## Lab 3F: Doxygen
 ```sh
