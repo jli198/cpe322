@@ -132,11 +132,11 @@ $ docker images
 $ docker 
 $ docker run --rm hello-world
 $ docker run -it ubuntu bash
-# pwd
-# ls
-# cat /etc/os-release
-# date
-# exit
+root@c......:\#pwd
+root@c......:\# ls
+root@c......:\# cat /etc/os-release
+root@c......:\# date
+root@c......:\# exit 
 ```
 
 ### On Raspberry Pi, install Docker
