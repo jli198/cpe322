@@ -140,7 +140,7 @@ root@c......:\# exit
 ```
 
 ### On Raspberry Pi, install Docker
-* Install Docker on Raspberry Pi OS by following these [instructions](https://withblue.ink/2020/06/24/docker-and-docker-compose-on-raspberry-pi-os.html)
+* Install Docker on Raspberry Pi OS (Debian) by following these [instructions](https://docs.docker.com/engine/install/debian/#set-up-the-repository)
 * Run [cURL](https://en.wikipedia.org/wiki/CURL) to download data from [example.com](https://en.wikipedia.org/wiki/Example.com) with or without the progress meter
 * Run Docker commands and hello-world
 * Add pi to the Docker group as a non-root user, logout SSH, and reconnect SSH for this to take effect
