@@ -132,7 +132,7 @@ $ docker images
 $ docker 
 $ docker run --rm hello-world
 $ docker run -it ubuntu bash
-root@c......:\#pwd
+root@c......:\# pwd
 root@c......:\# ls
 root@c......:\# cat /etc/os-release
 root@c......:\# date
