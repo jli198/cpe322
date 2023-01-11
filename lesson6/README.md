@@ -144,8 +144,8 @@ $ node -v
 $ npm -v
 $ node -h
 $ cd ~/iot/lesson6
-$ node hello.js
-Server running at http://127.0.0.1:8080/
+$ node hello-world.js
+Server running at http://127.0.0.1:3000/
 response end call done
 request end event fired
 response end call done
@@ -177,7 +177,7 @@ Hey Siri!
 $
 ```
 
-## Optional Lab 6C: Particle Cloud
+## ~~Optional Lab 6C: Particle Cloud~~ DEPRECATED
 
 * [The Particle on Raspberry Pi project has been discontinued](https://docs.particle.io/raspberry-pi/)
 * Raspberry Pi 4B is not supported
