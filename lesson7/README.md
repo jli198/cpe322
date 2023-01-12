@@ -48,14 +48,15 @@ Should we save this key for future use? [y/N] >>>
 * If yes, the Write API Key is saved in API_KEY.pickle
 * Alternatively, replace YOURKEYHERE with the Write API in Line 10 of thingspeak_cpu_loop.py
 ## Lab 7B: Google Sheets
-* The following rpidata project and [rpi_spreadsheet.py](/lesson7/rpi_spreadsheet.py) require Raspberry Pi and system_info.py
+* The following rpidata project and [rpi_spreadsheet.py](/lesson7/rpi_spreadsheet.py) require a Raspberry Pi and system_info.py
 * Alternatively, follow the same steps for a cpudata project and run [cpu_spreadsheet.py](/lesson7/cpu_spreadsheet.py) that does not require Raspberry Pi and system_info.py
 
 ### Sign up and log in the Google Cloud Platform Identity and Access Management [(IAM)](https://console.developers.google.com/projectselector/iam-admin/iam)
 
-* Click "Create" and enter the project name, e.g., rpidata
-* &equiv; > APIs & Services > + Enable APIs & Services > Enable both Drive API and Sheets API
-* Credential > Create Credentials > Create service account key > Service account > rpidata > JSON key type > Create > download rpidata-xxxxxxxxxxxx.json
+* Click "Create Project" and enter the project name, e.g., rpidata
+* &equiv; > APIs & Services > Enabled API & services > + Enable APIs & Services > Enable both Google Drive API and Google Sheets API
+* &equiv; > APIs & Services > Credentials > + Create Credentials > Service account > rpidata > Done
+* email > Click on pencil > Keys > Add Key > Create new key > JSON key type > Create > download rpidata-xxxxxxxxxxxx.json
 
 ### Install gspread and oauth2client
 ```sh
@@ -79,10 +80,10 @@ $ mv ~/Downloads/rpidata-*.json ~/demo
 
 ### Go to [Google Sheets](https://docs.google.com/spreadsheets/u/0)
 
-* Start a new spreadsheet rpidata (or cpudata)
-* Share the spreadsheet with the "client_email" address in the .json file, select “Can edit,” and click "Send"
+* Create a new spreadsheet rpidata (or cpudata)
+* Share the spreadsheet with the "client_email" address in the .json file, select “Editor,” and click "Done"
   * May receive an email with the subject "Delivery Status Notification (Failure)" and the message "Address not found" from mailer-daemon@google.com
-* Delete Rows 2 to 1000, and enter Date / Time, CPU Usage %, Temperature C (or Memory Available GB for cpudata) to header cells
+* ~~Delete Rows 2 to 1000, and enter Date / Time, CPU Usage %, Temperature C (or Memory Available GB for cpudata) to header cells~~
   * This deletion is not necessary with the improved [rpi_worksheet.py](/lesson7/rpi_worksheet.py) and [cpu_worksheet.py](/lesson7/cpu_worksheet.py) that can check the next empty row to write data
 
 ### Edit rpi_spreadsheet.py
