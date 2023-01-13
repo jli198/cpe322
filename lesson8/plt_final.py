@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from pandas import *
 from scipy import stats
 
-data = read_csv('rpidata1.csv')
+data = read_csv('rpidata.csv')
 x = data['CPU Usage %']
 y = data['Temperature C']
 
