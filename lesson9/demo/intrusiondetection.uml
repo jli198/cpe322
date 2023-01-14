@@ -1,0 +1,40 @@
+'Download plantuml from http://plantuml.sourceforge.net/ 
+'Generate png with java -jar plantuml.jar <file> 
+'Output in img/<module>.png 
+'If Java spits out memory error increase heap size with java -Xmx1024m  -jar plantuml.jar <file> 
+@startuml img/intrusiondetection.png 
+hide empty fields 
+hide empty methods 
+hide <<case>> circle
+hide <<augment>> circle
+hide <<choice>> circle
+hide <<leafref>> stereotype
+hide <<leafref>> circle
+hide stereotypes 
+page 1x1 
+Title intrusiondetection 
+package "intrusion:intrusiondetection" as intrusion_intrusiondetection { 
+class "intrusiondetection" as intrusiondetection << (M, #33CCFF) module>> 
+class "room" as intrusiondetection_I_room_grouping <<(G,Lime) grouping>> 
+intrusiondetection_I_room_grouping : doorsensorID : string  
+intrusiondetection_I_room_grouping : motionsensorID : string  
+class "intrusiondetection" as  intrusiondetection_I_intrusiondetection <<container>> 
+intrusiondetection *-- "0..1" intrusiondetection_I_intrusiondetection 
+intrusiondetection_I_intrusiondetection : systemID : string   {mandatory} {Config : false}
+intrusiondetection_I_intrusiondetection : systemLocation : string   {mandatory} {Config : false}
+intrusiondetection_I_intrusiondetection : systemStatus : enumeration : {up,down,armed,...}   {mandatory} {Config : false}
+class "sensors" as  intrusiondetection_I_intrusiondetection_I_sensors <<container>> 
+intrusiondetection_I_intrusiondetection *-- "1" intrusiondetection_I_intrusiondetection_I_sensors 
+intrusiondetection_I_intrusiondetection_I_sensors : room {uses} 
+intrusiondetection : arm-system()
+intrusiondetection : disarm-system()
+class "systemArmed" as intrusiondetection_I_systemArmed << (N,#00D1B2) notification>> 
+intrusiondetection -- intrusiondetection_I_systemArmed : notification 
+intrusiondetection_I_systemArmed : armStatus : enumeration : {armed,disarmed,error,}  
+} 
+
+intrusiondetection_I_intrusiondetection_I_sensors --> intrusiondetection_I_room_grouping : uses 
+center footer
+ <size:20> UML Generated : 2023-01-13 23:09 </size>
+ endfooter 
+@enduml 
