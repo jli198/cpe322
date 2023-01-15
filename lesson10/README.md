@@ -1,6 +1,6 @@
 # Lesson 10: Blockchain
 
-* [But how does bitcoin actually work? (YouTube)] (https://youtu.be/bBC-nXj3Ng4)
+* [But how does bitcoin actually work? (YouTube)](https://youtu.be/bBC-nXj3Ng4)
 * [Digital currency](https://en.wikipedia.org/wiki/Digital_currency)
 * [SWIFT](https://en.wikipedia.org/wiki/SWIFT) (Society for Worldwide Interbank Financial Telecommunication)
 * [Bank Secrecy Act](https://en.wikipedia.org/wiki/Bank_Secrecy_Act) (BSA)
