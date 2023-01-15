@@ -1,10 +1,10 @@
 # Linux Commands
 
+[Explain Shell Commands](https://explainshell.com/)
+
 ```sh
 $ cd
 # Changes directory to /home/pi
-
-[Explain Shell Commands](https://explainshell.com/)
 
 $ cd dirname                # Change directory to dirname
 $ cd ..                     # Move up to parent directory
