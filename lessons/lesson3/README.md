@@ -65,11 +65,8 @@ $ python3
 >>> a=3
 >>> a
 >>> type(a)
-<class 'int'>
 >>> x=2.1
 >>> x;type(x)
-2.1
-<class 'float'>
 >>> a+x
 >>> a-x
 >>> a*x
@@ -77,216 +74,151 @@ $ python3
 >>> a**2
 >>> y=2+3j
 >>> y;type(y)
-2+3j
-<class 'complex'>
 >>> y.real
-2.0
 >>> y.imag
-3.0
 ```
 * Strings: text and binary data
 ```sh
 >>> s='Hello World!'
 >>> type(s)
-<class 'str'>
 >>> s.upper()
-'HELLO WORLD!'
 >>> s.lower()
-'hello world!'
 >>> s.strip('!')
-'Hello World'
 >>> s[0]
-'H'
 >>> s[6:]
-'World!'
 >>> s[6:-1]
-'World'
 >>> len(s)
-12
 >>> b=s.encode()
 >>> b
-b'Hello World!'
 >>> type(b)
-<class 'bytes'>
 >>> c=b.decode()
 >>> c
-'Hello World!'
 >>> type(c)
-<class 'str'>
 >>> t=' This is a simple program.'
 >>> s+t
-'Hello World! This is a simple program.'
 >>> print('"{:s}" has {:d} characters.'.format(s, len(s)))
-'Hello World!' has 12 characters.
 ```
 * Tuples
 ```sh
 >>> veggies=('beet', 'corn', 'kale')
 >>> type(veggies)
-<class 'tuple'>
 >>> len(veggies)
-3
 >>> veggies[0:2]
-('beet', 'corn')
 >>> veggies+('leek', 'okra')
-('beet', 'corn', 'kale', 'leek', 'okra')
 ```
 * Lists
 ```sh
 >>> fruits=['apple', 'banana', 'mango']
 >>> type(fruits)
-<class 'list'>
 >>> len(fruits)
-3
 >>> fruits[0:2]
-['apple', 'banana']
 >>> fruits+['orange', 'papaya']
-['apple', 'banana', 'mango', 'orange', 'papaya']
 >>> fruits.append('orange')
 >>> fruits
-['apple', 'banana', 'mango', 'orange']
 >>> fruits.remove('mango')
 >>> fruits
-['apple', 'banana', 'orange']
 >>> fruits.insert(1, 'mango')
 >>> fruits
-['apple', 'mango', 'banana', 'orange']
 ```
 * Dictionaries
 ```sh
 >>> student={'name': 'Mary', 'id': '8776'}
 >>> type(student)
-<class 'dict'>
 >>> student['name']
-'Mary'
 >>> student.items()
-dict_items([('name', 'Mary'), ('id', '8776')])
 >>> student.keys()
-dict_keys(['name', 'id'])
 >>> student.values()
-dict_values(['Mary', '8776'])
 >>> students={'1': {'name': 'Alex', 'grade': 3.8}, 
-           '2': {'name': 'Barb', 'grade': 2.5}, 
-           '3': {'name': 'Dave', 'grade': 4.2},
-           '4': {'name': 'John', 'grade': 4.1},
-           '5': {'name': 'Mary', 'grade': 3.5}}
+...           '2': {'name': 'Barb', 'grade': 2.5}, 
+...           '3': {'name': 'Dave', 'grade': 4.2},
+...           '4': {'name': 'John', 'grade': 4.1},
+...           '5': {'name': 'Mary', 'grade': 3.5}}
 >>> students.keys()
-dict_keys(['1', '2', '3', '4', '5'])
 ```
 * If else
 ```sh
 >>> z=25**5
 >>> if z>1000000:
-      print('More')
-    else:
-      print('Less')
-
-More
+...     print('More')
+... else:
+...     print('Less')
+...
 ```
 * If not
 ```sh
 >>> if not 'major' in student.keys():
-      student['major']='ECE'
+...     student['major']='ECE'
+...
 >>> student
 ```
 * For
 ```sh
 >>> for v in s:
-      print(v, end=' ')
-
+...     print(v, end=' ')
+...
 >>> i=0
 >>> for item in fruits:
-      print('Fruit {:d}: {:s}'.format(i, item))
-      i=i+1
-
+...     print('Fruit {:d}: {:s}'.format(i, item))
+...     i=i+1
+...
 >>> for key in student:
-      print('{:s}: {:s}'.format(key, student[key]))
-
-dict_keys(['1', '2', '3', '4', '5'])
-Fruit 0: apple
-Fruit 1: mango
-Fruit 2: banana
-Fruit 3: orange
-name: Mary
-id: 8776
+...     print('{:s}: {:s}'.format(key, student[key]))
+...
 ```
 * While
 ```sh
 >>> i=0
 >>> while i<=10:
-      if i%2==0:
-        print(i, end=' ')
-      i=i+1
-
-0 2 4 6 8 10
+...     if i%2==0:
+...         print(i, end=' ')
+...     i=i+1
+...
 ```
 * Break
 ```sh
 >>> m=1
 >>> for n in range(4, 256, 4):
-      m=m*n
-      if m>512:
-        break
-      print(m)
-
-4
-32
-384
+...     m=m*n
+...     if m>512:
+...         break
+...     print(m)
+...
 ```
 * Continue (or pass)
 ```sh
 >>> grains=['oat', 'rice', 'rye', 'wheat']
 >>> for item in grains:
-      if item=='rice':
-        continue
-      else:
-        print(item, end=' ')
-
-oat rye wheat
+...     if item=='rice':
+...         continue
+...     else:
+...         print(item, end=' ')
+...
 ```
 * Mathematical functions
 ```sh
 >>> import math
 >>> math.ceil(1.5)
-2
 >>> math.floor(1.5)
-1
 >>> math.factorial(10)
-3628800
 >>> math.fmod(10,3)
-1.0
 >>> 10%3
-1
 >>> math.sqrt(64)
-8.0
 >>> math.exp(1)
-2.718281828459045
 >>> math.log(4,2)
-2.0
 >>> math.degrees(1.5707963267948966)
-90.0
 >>> math.radians(90)
-1.5707963267948966
 >>> math.asin(1)
-1.5707963267948966
 >>> math.sin(1.5707963267948966)
-1.0
 >>> math.cos(math.pi)
--1.0
 ```
 * [Built-in functions](https://docs.python.org/3/library/functions.html)
 ```sh
 >>> r=range(10)
 >>> r
-range(0, 10)
 >>> r[::-1]
-range(9, -1, -1)
 >>> r[::2]
-range(0, 10, 2)
 >>> r[1::3]
-range(1, 10, 3)
 >>> range(10, 110, 10)
-range(10, 110, 10)
 ```
 * Defining functions
 ```sh
@@ -313,10 +245,6 @@ range(10, 110, 10)
 ...         print(key, ': ', kwargs[key], sep='')
 ...
 >>> printID(name='Mary', id='8776', major='ECE')
-
-Student Name: Mary
-id: 8776
-major: ECE
 ```
 * Variable-length arguments
 ```sh
@@ -344,52 +272,29 @@ $ python3
 ...           '4':{'name':'John','grade':4.1},
 ...           '5':{'name':'Mary','grade':3.5}}
 >>> student.printRecords(students)
-There are 5 students
-Student 1:
-Name: Alex
-Grade: 3.8
-Student 2:
-Name: Barb
-Grade: 2.5
-Student 3:
-Name: Dave
-Grade: 4.2
-Student 4:
-Name: John
-Grade: 4.1
-Student 5:
-Name: Mary
-Grade: 3.5
 >>> avg=student.averageGrade(students)
 >>> print('The average is {:0.2f}'.format(avg))
-The average is 3.62
 >>> from student import averageGrade
 >>> avg=averageGrade(students)
 >>> print('The average is {:0.2f}'.format(avg))
-The average is 3.62
 ```
 * Read and write files
 ```sh
-$ cd lesson3
-$ mkdir demo
-$ cd demo
-$ python3
 >>> fp=open('file.txt', 'r')
 >>> content=fp.read()
 >>> print(content)
-Python supports more than one programming paradigms including object-oriented programming and structured programming.
-Python is an interpreted language and does not require an explicit compilation step.
 >>> fp.close()
 >>> exit()
-
->>> fo=open('file.txt', 'w')
+$ cd
+$ mkdir demo
+$ cd demo
+$ python3
+>>> fo=open('file1.txt', 'w')
 >>> content='This is an example of writing to a file in Python.'
 >>> fo.write(content)
-48
 >>> fo.close()
 >>> exit()
 $ cat file1.txt
-This is an example of writing to file in Python.
 ```
 ### WARNING AGAIN: Don't upgrade the preinstalled Python or pip on Raspberry Pi OS
 * Run pip3 to install/upgrade packages, update the IoT repository, and run Python 3 programs
@@ -399,135 +304,19 @@ $ cd iot
 $ git pull
 $ cd lesson3
 $ 2to3 2example.py
-RefactoringTool: Skipping optional fixer: buffer
-RefactoringTool: Skipping optional fixer: idioms
-RefactoringTool: Skipping optional fixer: set_literal
-RefactoringTool: Skipping optional fixer: ws_comma
-RefactoringTool: Refactored 2example.py
---- 2example.py	(original)
-+++ 2example.py	(refactored)
-@@ -1,5 +1,5 @@
- def greet(name):
--    print "Hello, {0}!".format(name)
--print "What's your name?"
--name = raw_input()
-+    print("Hello, {0}!".format(name))
-+print("What's your name?")
-+name = input()
- greet(name)
-RefactoringTool: Files that need to be modified:
-RefactoringTool: 2example.py
 $ python3 julian.py
-Calendar Date: 2023-01-04
-Julian Date: 2459948.5
-Modified Julian Date: 59948.0
 $ python3 date_example.py
-Date: 2023-01-04
-Date: 01-04-23        
-Day of Week: Wednesday
-Month: January
-Year: 2023
-125 days after the first day of classes
--21 days before the last day of classes
 $ python3 datetime_example.py
-2023-01-04 19:43:41.790516
-2023-01-04 19:43:41.790515
-2023-01-05 00:43:41.790515
-1672879421.7905157        
-Wed Jan  4 19:43:41 2023  
-2023-01-04 19:43:41.791516
-2023-01-05 00:43:41.791516
 $ python3 time_example.py
-Wed Jan  4 19:43:52 2023
 $ python3 sun.py 'New York'
-Information for New York/USA
-
-Timezone: US/Eastern
-Latitude: 40.72; Longitude: -74.00
-
-Dawn:    2023-01-04 06:49:11.597774-05:00
-Sunrise: 2023-01-04 07:20:29.563124-05:00
-Noon:    2023-01-04 12:00:36-05:00
-Sunset:  2023-01-04 16:41:32.377896-05:00
-Dusk:    2023-01-04 17:12:50.452784-05:00
 $ python3 sun.py Beijing
-Information for Beijing/China
-
-Timezone: Asia/Harbin
-Latitude: 39.92; Longitude: 116.33
-
-Dawn:    2023-01-04 07:05:53.158990+08:00
-Sunrise: 2023-01-04 07:36:45.302631+08:00
-Noon:    2023-01-04 12:19:16+08:00
-Sunset:  2023-01-04 17:02:07.247007+08:00
-Dusk:    2023-01-04 17:32:59.477061+08:00
 $ python3 sun.py 'New Delhi'
-Information for New Delhi/India
-
-Timezone: Asia/Kolkata
-Latitude: 28.62; Longitude: 77.22
-
-Dawn:    2023-01-04 06:48:24.303071+05:30
-Sunrise: 2023-01-04 07:14:42.500170+05:30
-Noon:    2023-01-04 12:25:44+05:30
-Sunset:  2023-01-04 17:37:08.937573+05:30
-Dusk:    2023-01-04 18:03:27.029798+05:3
 $ python3 moon.py
-2023-01-04 Moon Phase: 11
-2023-01-05 Moon Phase: 12
-2023-01-06 Moon Phase: 13
-2023-01-07 Moon Phase: 14
-2023-01-08 Moon Phase: 15
-2023-01-09 Moon Phase: 16
-2023-01-10 Moon Phase: 16
-2023-01-11 Moon Phase: 17
-2023-01-12 Moon Phase: 18
-2023-01-13 Moon Phase: 19
-2023-01-14 Moon Phase: 20
-2023-01-15 Moon Phase: 21
-2023-01-16 Moon Phase: 22
-2023-01-17 Moon Phase: 23
-2023-01-18 Moon Phase: 24
-2023-01-19 Moon Phase: 25
-2023-01-20 Moon Phase: 26
-2023-01-21 Moon Phase: 27
-2023-01-22 Moon Phase: 0
-2023-01-23 Moon Phase: 1
-2023-01-24 Moon Phase: 2
-2023-01-25 Moon Phase: 3
-2023-01-26 Moon Phase: 4
-2023-01-27 Moon Phase: 5
-2023-01-28 Moon Phase: 6
-2023-01-29 Moon Phase: 7
-2023-01-30 Moon Phase: 8
-2023-01-31 Moon Phase: 9
-2023-02-01 Moon Phase: 10
-2023-02-02 Moon Phase: 11
 $ python3 coordinates.py 'SC Williams Library'
-Library Parking, Williams Lake, Cariboo Regional District, British Columbia, Canada
-(52.130143399999994, -122.14187089155848)
 $ python3 address.py '40.74480675, -74.02532862031404'
-Stevens Institute of Technology, Field House Road, Hoboken, Hudson County, New Jersey, 07030, United States
-(40.744809599999996, -74.0252392276461)
 $ python3 cpu.py
-The number of physical cores =  4
-The number of logical CPUs =  4
-The utilization per second as a percentage for each CPU
-[1.0, 1.0, 11.1, 0.0]
-[0.0, 1.0, 11.0, 0.0]
-[1.0, 1.0, 11.1, 1.0]
-[0.0, 0.0, 11.1, 0.0]
-[30.4, 2.0, 11.0, 1.0]
-[6.1, 7.9, 55.7, 0.0]
-[5.1, 6.1, 0.0, 0.0]
-[5.1, 7.0, 0.0, 0.0]
-[7.9, 5.1, 0.0, 0.0]
-[7.9, 6.0, 1.0, 1.0]
 $ python3 battery.py
-None
 $ python3 documentstats.py document.txt
-Word Count: 1343
-Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15), ('these', 13), ('have', 11), ('we', 11), ('us', 11), ('people', 10)]
 ```
 ### On Raspberry Pi OS (Bullseye), change /opt/vc/bin/vcgencmd to /usr/bin/vcgencmd in system_info.py
 ```sh
@@ -606,66 +395,12 @@ pi@raspberrypi:~/iot/lesson3 $ python3 temperature.py
 $ cd ~/iot/lesson3/pypy
 $ gcc -o test test.c
 $ time ./test
-1000000.000000
-
-real	0m0.047s
-user	0m0.038s
-sys	0m0.008s
 $ time pypy test.py
-1000000.0
-
-real	0m0.199s
-user	0m0.108s
-sys	0m0.076s
 $ time python test.py
-1000000.0
-
-real	0m1.361s
-user	0m1.300s
-sys	0m0.037s
 $ time python3 test.py
-1000000.0
-
-real	0m1.346s
-user	0m1.308s
-sys	0m0.037s
 $ pypy -m cProfile test.py
-1000000.0
-         1000003 function calls in 9.421 seconds
-
-   Ordered by: standard name
-
-   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    9.421    9.421 test.py:1(<module>)
-  1000000    4.671    0.000    4.671    0.000 test.py:1(add)
-        1    4.750    4.750    9.421    9.421 test.py:4(main)
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 $ python -m cProfile test.py
-1000000.0
-         1000005 function calls in 1.890 seconds
-
-   Ordered by: standard name
-
-   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    1.890    1.890 test.py:1(<module>)
-  1000000    0.457    0.000    0.457    0.000 test.py:1(add)
-        1    1.433    1.433    1.890    1.890 test.py:4(main)
-        1    0.000    0.000    1.890    1.890 {built-in method builtins.exec}
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 $ python3 -m cProfile test.py
-1000000.0
-         1000005 function calls in 2.054 seconds
-
-   Ordered by: standard name
-
-   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    2.054    2.054 test.py:1(<module>)
-  1000000    0.513    0.000    0.513    0.000 test.py:1(add)
-        1    1.541    1.541    2.054    2.054 test.py:4(main)
-        1    0.000    0.000    2.054    2.054 {built-in method builtins.exec}
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 ```
 ## Lab 3F: Doxygen
 ```sh
@@ -682,15 +417,4 @@ $ nano doxygen.config
 $ doxygen doxygen.config
 $ cd html
 $ html2text annotated.html
-pyexample
-
-
-Class List
-Here are the classes, structs, unions and interfaces with brief descriptions:
-[detail level 12]
- ?NpyexampDocumentation for this module
- CPyClass   Documentation for a class
-
-===============================================================================
-     Generated by [doxygen] 1.9.1
 ```

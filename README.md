@@ -1,8 +1,6 @@
-## CPE 322
-
 # Internet of Things (IoT)
-
-* [Instructor](https://web.stevens.edu/facultyprofile/?id=2081) from 2015 Spring to 2021 Fall
+Electrical Engineering EE 629
+* [Instructor](https://www.stevens.edu/profile/klu2) from 2015 Spring to 2021 Fall
   * [Instructional design](https://en.wikipedia.org/wiki/Instructional_design)
     * [Active learning](https://en.wikipedia.org/wiki/Active_learning)
     * [Direct Instruction](https://en.wikipedia.org/wiki/Direct_instruction)
@@ -148,6 +146,7 @@
 * [TinyML](https://github.com/mit-han-lab/tinyml)
 
 ## Regulations
+* [Americans with Disabilities Act of 1990](https://en.wikipedia.org/wiki/Americans_with_Disabilities_Act_of_1990) (ADA)
 * [Artificial Intelligence Act](https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)
 * [Cybersecurity regulation](https://en.wikipedia.org/wiki/Cyber-security_regulation)
   * [Internet of Things Cybersecurity Improvement Act](https://www.congress.gov/bill/116th-congress/house-bill/1668)
@@ -156,6 +155,7 @@
 * [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (General Data Protection Regulation)
 * [PIPL](https://en.wikipedia.org/wiki/Personal_Information_Protection_Law_of_the_People's_Republic_of_China) (Personal Information Protection Law)
 * [Supply chain security](https://en.wikipedia.org/wiki/Supply_chain_security)
+* [U.S. Consumer Product Safety Commission](https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission) (CPSC)
 * [Web accessibility](https://en.wikipedia.org/wiki/Web_accessibility)
   * [Section 508 Amendament to the Rehabilitation Act of 1973](https://en.wikipedia.org/wiki/Section_508_Amendment_to_the_Rehabilitation_Act_of_1973)
   * [WCAG](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines) (Web Content Accessibility Guidelines)

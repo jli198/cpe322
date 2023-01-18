@@ -55,6 +55,8 @@
   * [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0)
   * [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web)
   * [Web3](https://en.wikipedia.org/wiki/Web3)
+    * [Brave (web browser)](https://en.wikipedia.org/wiki/Brave_(web_browser))
+    * [Opera (web browser)](https://en.wikipedia.org/wiki/Opera_(web_browser))
   * [Clearnet](https://en.wikipedia.org/wiki/Clearnet_(networking)) refers to the publicly accessible internet
   * [Surface web](https://en.wikipedia.org/wiki/Surface_web) is readily available to the general public and searchable with standard web search engines
   * [Deep web](https://en.wikipedia.org/wiki/Deep_web) refers to the contents that are not indexed by standard web search-engines
@@ -85,6 +87,10 @@
   * [Second Life](https://en.wikipedia.org/wiki/Second_Life)
   * [Roblox](https://en.wikipedia.org/wiki/Roblox)
   * [VRChat](https://en.wikipedia.org/wiki/VRChat)
+* [Human interface device](https://en.wikipedia.org/wiki/Human_interface_device) (HID)
+  * [Degrees of freedom (mechanics)](https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)) (DOF)
+  * [MIROS](https://miros.technology/) (Multiscale Interactive Robotic Surface)
+  * [Ultraleap](https://en.wikipedia.org/wiki/Leap_Motion)
 ## Labs 4A and 4B: Django and Django REST
 ### 1. Install Django and Django REST framework on Raspberry Pi
 ```sh

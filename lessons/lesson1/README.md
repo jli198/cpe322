@@ -59,7 +59,16 @@
   * [Starlink](https://en.wikipedia.org/wiki/Starlink)
 * [Software-defined networking](https://en.wikipedia.org/wiki/Software-defined_networking) (SDN)
   * [Software-defined radio](https://en.wikipedia.org/wiki/Software-defined_radio) (SDR)
-  * [Software-defined vehicles](https://www.arm.com/solutions/automotive/software-defined-vehicles) (SDV)
+  * Software-defined vehicles (SDV)
+    * [Amazon](https://aws.amazon.com/automotive/software-defined-vehicle/)
+    * [Aptiv](https://www.aptiv.com/en/insights/article/what-is-a-software-defined-vehicle)
+    * [Arm](https://www.arm.com/solutions/automotive/software-defined-vehicles)
+    * [Bosch](https://www.bosch-mobility-solutions.com/en/mobility-topics/software-defined-vehicle/)
+    * [Deloitte](https://www2.deloitte.com/cn/en/pages/consumer-business/articles/software-defined-cars-industrial-revolution-on-the-arrow.html)
+    * [Eclipse Foundation](https://sdv.eclipse.org/)
+    * [NXP](https://www.nxp.com/applications/enabling-technologies/software-defined-vehicles:SOFTWARE-DEFINED-CARS)
+    * [Sonatus](https://www.sonatus.com/)
+    * [Wipro](https://www.wipro.com/blogs/sayon-sur/software-defined-vehicles-how-to-accelerate-the-future-of-automotive/)
 * [Network function virtualization](https://en.wikipedia.org/wiki/Network_function_virtualization) (NFV)
 * [5G network slicing](https://en.wikipedia.org/wiki/5G_network_slicing)
 * [6G](https://en.wikipedia.org/wiki/6G_(network))
@@ -80,7 +89,7 @@
   | 2 | Single | Local | Cloud | Smart Irrigation |
   | 1 | Single | Local | Local | Home Automation |
 
-* [Orchestration](https://en.wikipedia.org/wiki/Orchestration_(computing))
+* [Orchestration (computing)](https://en.wikipedia.org/wiki/Orchestration_(computing))
 * [As a service](https://en.wikipedia.org/wiki/As_a_service)
 * [Service economy](https://en.wikipedia.org/wiki/Service_economy)
 * [Quality of service](https://en.wikipedia.org/wiki/Quality_of_service) (QoS)
@@ -88,16 +97,22 @@
 * NIST [cloud security](https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/cloud-security)
 * [Secure access service edge](https://en.wikipedia.org/wiki/Secure_access_service_edge) (SASE)
 * [Privacy-enhancing technologies](https://en.wikipedia.org/wiki/Privacy-enhancing_technologies) (PET)
-## Lab primer
+## Lab Primer
+* [Primer](https://en.wikipedia.org/wiki/Primer_(textbook))
 * [Computing](https://en.wikipedia.org/wiki/Computing)
-* [User interface](https://en.wikipedia.org/wiki/User_interface) (UI)
+* [Apple](https://en.wikipedia.org/wiki/Apple)
+  > As late as the 17th century, the word also functioned as a generic term for all fruit including nuts.
+  > This use is analogous to the French language use of pomme.
+* [Why is Apple called Apple?](https://www.macworld.com/article/673923/why-is-apple-called-apple.html)
+* [Kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system))
 * [Shell](https://en.wikipedia.org/wiki/Shell_(computing))
+* [User interface](https://en.wikipedia.org/wiki/User_interface) (UI)
 * [Graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) (GUI)
 * [Command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) (CLI)
   * [Termina emulator](https://en.wikipedia.org/wiki/Terminal_emulator)
-  * [sudo](https://en.wikipedia.org/wiki/Sudo)
+  * [Sudo](https://en.wikipedia.org/wiki/Sudo)
   * [Ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
-  * [scrot](https://en.wikipedia.org/wiki/Scrot) vs. screencapture on macOS
+  * [Scrot](https://en.wikipedia.org/wiki/Scrot) vs. screencapture on macOS
   * [Localhost](https://en.wikipedia.org/wiki/Localhost)
   * [Keyboard shortcut](https://en.wikipedia.org/wiki/Keyboard_shortcut)
   * [Control-D](https://en.wikipedia.org/wiki/End-of-Transmission_character)
@@ -105,10 +120,10 @@
   * [Alias](https://en.wikipedia.org/wiki/Alias_(command))
   * [Superuser](https://en.wikipedia.org/wiki/Superuser)
 * [Tunneling protocol](https://en.wikipedia.org/wiki/Tunneling_protocol)
-* [systemd](https://en.wikipedia.org/wiki/Systemd)
+* [Systemd](https://en.wikipedia.org/wiki/Systemd)
   * [How to Run a Raspberry Pi Program on Startup](https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup/all)
-  * [systemd.special](https://www.freedesktop.org/software/systemd/man/systemd.special.html)
-  * [bootup](https://www.freedesktop.org/software/systemd/man/bootup.html)
+  * [Systemd.special](https://www.freedesktop.org/software/systemd/man/systemd.special.html)
+  * [Bootup](https://www.freedesktop.org/software/systemd/man/bootup.html)
 * [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
   * [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) (Rivest–Shamir–Adleman)
   * [DSA](https://en.wikipedia.org/wiki/Digital_Signature_Algorithm) (Digital Signature Algorithm)
@@ -119,12 +134,13 @@
 ## Lab 1A: Raspberry Pi Setup
 
 * [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) supports [SDHC](https://en.wikipedia.org/wiki/SD_card) (High Capacity up to 32 GB) cards with the FAT ([File Allocation Table](https://en.wikipedia.org/wiki/File_Allocation_Table)) file system
-* [Examples of 32 GB microSD cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards)
-* Any SD card larger than 32 GB is likely an SDXC card with the [exFAT](https://en.wikipedia.org/wiki/ExFAT) file system that won't boot
+  * [Examples of 32 GB microSD cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards)
+  * Any SD card larger than 32 GB is likely an SDXC card with the [exFAT](https://en.wikipedia.org/wiki/ExFAT) file system that won't boot
 * [Raspberry Pi Imager](https://www.raspberrypi.org/software/) can erase and format any SD card as FAT32
-* Raspberry Pi OS [releases](http://downloads.raspberrypi.org/NOOBS/images/) since 2013-06-27
-  * Formerly [NOOBS](https://github.com/raspberrypi/noobs) (New Out-Of-Box Software)
-* Raspberry Pi OS [release notes](https://downloads.raspberrypi.org/raspios_armhf/release_notes.txt) since 2013-09-10
+* [Raspberry Pi OS](https://en.wikipedia.org/wiki/Raspberry_Pi_OS), formerly [NOOBS](https://github.com/raspberrypi/noobs) (New Out-Of-Box Software)
+  * [Images](http://downloads.raspberrypi.org/NOOBS/images/) since 2013-06-27
+  * [Release notes](https://downloads.raspberrypi.org/raspios_armhf/release_notes.txt) since 2013-09-10
+  * [Archive](http://downloads.raspberrypi.org/NOOBS/archive/) since 2013-11-02
 
 ### 1. On a laptop computer, download and open [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 
