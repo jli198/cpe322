@@ -23,6 +23,7 @@
   * [Cryptocurrency exchange](https://en.wikipedia.org/wiki/Cryptocurrency_exchange)
   * [Crypto-wikipedia](https://crypto-wikipedia.com/)
 * [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)
+  * [But how does bitcoin actually work? (YouTube)](https://youtu.be/bBC-nXj3Ng4)
   * [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto), "[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)," [Oct. 31, 2008](https://archive.is/20121228025845/http://article.gmane.org/gmane.comp.encryption.general/12588/#selection-179.7-179.30)
   * [Double-spending problem](https://en.wikipedia.org/wiki/Double-spending)
   * [Proof of work](https://en.wikipedia.org/wiki/Proof_of_work)
