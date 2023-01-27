@@ -2,7 +2,7 @@
 
 ![Stevens Logo](stevenslogo.png)
 
-**REPO IN PROGRESS**
+**REPO IN PROGRESS** </br>
 *making minor adjustments along the way*
 
 ## Lab Directory
