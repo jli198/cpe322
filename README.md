@@ -7,16 +7,16 @@
 
 ## Lab Directory
 
-[Lab 1](/lab1)
-[Lab 2](/lab2)
-[Lab 3](/lab3)
-[Lab 4](/lab4)
-[Lab 5](/lab5)
-[Lab 6](/lab6)
-[Lab 7](/lab7)
-[Lab 8](/lab8)
-[Lab 9](/lab9)
-[Lab 10](/lab10)
+1. [Lab 1](/lab1)
+2. [Lab 2](/lab2)
+3. [Lab 3](/lab3)
+4. [Lab 4](/lab4)
+5. [Lab 5](/lab5)
+6. [Lab 6](/lab6)
+7. [Lab 7](/lab7)
+8. [Lab 8](/lab8)
+9. [Lab 9](/lab9)
+10. [Lab 10](/lab10)
 
 ## Relevant Links
 
