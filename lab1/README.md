@@ -85,7 +85,7 @@ $ cp ~/dsd/ghdl/*vhdl .
 
 ### What is a Half-Adder?
 
-[Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder)) </br>
+[Half-Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder) </br>
 An adder is a digital circuit in the arithmetic logic unit (ALU) that adds numbers. The half adder adds two single binary digits **A** and **B**. </br>
 </br>
 
@@ -116,9 +116,9 @@ If affected, put sudo before any gtkwave command. </br>
 </br>
 When the app opens, one can see the SST tab and the entity ha_tb on the left. Click on this to see the entiyy half_addr. Right click on half_addr and Select either Append, Insert, or Replace inside the Recurse Import option. </br>
 </br>
-There is also a tab in the lower left with Type and Signals when you click on the parent entity. One can select these components (with the control key) and add the entities to the graph that way. </br>
+There is also a tab in the lower left with Type and Signals when the parent entity is clicked on. One can select these components (with the control key) and add the entities to the graph that way. </br>
 </br>
-After importing half_addr, there may not be anything. To see the whole digital signal, hold control and use the scroll wheel to scroll until the signal is from 0 to 5 ns.
+After importing half_addr, there may not be anything. To see the whole digital signal, hold control and use the scroll wheel to scroll until the signal can be fully seen.
 
 ![Half Adder Signal](halfAdder.jpg)
 
