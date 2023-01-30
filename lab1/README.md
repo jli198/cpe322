@@ -79,6 +79,8 @@ $ cd vhdl
 $ cp ~/dsd/ghdl/*vhdl .
 ```
 
+**Fun Fact:** * is an indicator for file extensions. So it's copying all the files in the ghdl folder with the .vhdl file extension into our newly minted vhdl folder.
+
 ![Terminal Results](installVHDL.jpg)
 
 ## Half Adder
