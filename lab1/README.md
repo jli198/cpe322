@@ -116,7 +116,7 @@ Note: Because the Ubuntu instance used in this demo is not in a root directory, 
 
 If affected, put sudo before any gtkwave command. </br>
 </br>
-When the app opens, one can see the SST tab and the entity ha_tb on the left. Click on this to see the entiyy half_addr. Right click on half_addr and Select either Append, Insert, or Replace inside the Recurse Import option. </br>
+When the app opens, one can see the SST tab and the entity ha_tb on the left. Click on this to see the entity half_addr. Right click on half_addr and Select either Append, Insert, or Replace inside the Recurse Import option. </br>
 </br>
 There is also a tab in the lower left with Type and Signals when the parent entity is clicked on. One can select these components (with the control key) and add the entities to the graph that way. </br>
 </br>
