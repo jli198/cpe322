@@ -22,6 +22,7 @@
 
 * [Course Website](https://sites.google.com/view/ece322)
 * [IoT GitHub Repo](https://github.com/jli198/iot)
+* [LinkedIn](https://linkedin.com/in/jli247247)
 
 ## Grading Criteria
 
