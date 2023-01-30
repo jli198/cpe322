@@ -51,6 +51,7 @@ Copyright (C) 2021 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+$ make
 Use full IEEE library
 Build machine is: x86_64-linux-gnu
 create pic/ subdirectory
@@ -66,7 +67,6 @@ Generate elf_arch.ads
 Generate ghdlsynth_maybe.ads
 Generate grt-readline.ads
 
-$ make
 $ sudo make install
 ```
 
