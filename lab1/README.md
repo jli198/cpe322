@@ -126,7 +126,7 @@ After importing half_addr, there may not be anything. To see the whole digital s
 
 ## D Flip-Flop
 
-### What is a D Flip-Flop
+### What is a D Flip-Flop?
 
 [Flip-flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics)) </br>
 [D Flip-flop](https://www.analog.com/en/design-center/glossary/d-flip-flop.html#:~:text=A%20D%20(or%20Delay)%20Flip%20Flop,is%20shown%20in%20Figure%202.) </br>
@@ -155,7 +155,7 @@ Make sure to follow the steps in the Half Adder example to see the full digital 
 
 ## 4-to-1 Multiplexer
 
-### Multiplexer
+### What is a 4-to-1 Multiplexer?
 
 [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer) </br>
 [4-to-1 Multiplexer](https://allaboutfpga.com/vhdl-4-to-1-mux-multiplexer) </br>
