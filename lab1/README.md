@@ -89,6 +89,7 @@ $ cp ~/dsd/ghdl/*vhdl .
 
 [Half-Adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Half_adder) </br>
 An adder is a digital circuit in the arithmetic logic unit (ALU) that adds numbers. The half adder adds two single binary digits **A** and **B**. </br>
+A half adder only adds 1 bit. A full adder can result in a byte. </br>
 </br>
 
 ### Running Half-Adder in GTKWave
