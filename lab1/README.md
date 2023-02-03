@@ -102,8 +102,6 @@ Hello world!
 
 ## Adder
 
-### What is an Adder?
-
 [Adder](https://en.wikipedia.org/wiki/Adder_(electronics)) </br>
 An adder is a digital circuit in the arithmetic logic unit (ALU) that adds numbers. It is used in processors where addresses, table indicies, and increment + decrement counters need to be calculated.
 
