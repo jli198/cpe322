@@ -7,6 +7,7 @@
   * Run Half Adder Example
   * Run another example such as D Flip-Flop or 4-to-1 Multiplexer
   * Document results on your GitHub repository
+* Exploration: [Icarus Verilog](https://en.wikipedia.org/wiki/Icarus_Verilog)
 
 ## Installing GHDL and GTKWave
 
