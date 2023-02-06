@@ -514,7 +514,49 @@ unix  2      [ ]         DGRAM      CONNECTED     12514
 unix  3      [ ]         STREAM     CONNECTED     23365    /run/dbus/system_bus_socket
 ```
 
-### Raspberry Pi Screenshots via scrot
+### Commands Explained (if needed) + Raspberry Pi Screenshots via scrot*
 
-***Note: I only took screenshots of those that at maximum filled up the screen.**
+*Note: I only took screenshots of those that at maximum filled up the screen.
 
+**hostname**
+![hostname on Pi](hostnamePi.png)
+
+**env** </br>
+</br>
+
+**ps**
+![ps on Pi](psPi.png)
+
+**pwd**
+![pwd on Pi](pwdPi.png)
+
+**git clone, cd iot, ls, cd**
+![iot on Pi](iotPi.png)
+
+**df**
+![df on Pi](dfPi.png)
+
+**mkdir, cd demo, cat file, cp, mv, rm**
+![file on Pi](filePi.png)
+
+**nano file**
+![nano on Pi](nanoPi.jpg)
+
+**clear** </br>
+```clear```: clears the screen. It removes the text currently on the CLI. </br>
+</br>
+
+**man uname** </br>
+</br>
+
+**uname -a**
+![uname -a on Pi](unamePi.png)
+
+**ifconfig**
+![ifconfig on Pi](ifconfigPi.png)
+
+**ping localhost**
+![ping on Pi](pingPi.png)
+
+**netstat** </br>
+netstat
