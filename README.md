@@ -21,6 +21,7 @@
 ## Relevant Links
 
 * [Course Website](https://sites.google.com/view/ece322)
+* [Project Website](https://sites.google.com/stevens.edu/cpe322-23s-proj13/)
 * [IoT GitHub Repo](https://github.com/jli198/iot)
 * [LinkedIn](https://linkedin.com/in/jli247247)
 
