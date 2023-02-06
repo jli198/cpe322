@@ -516,25 +516,36 @@ unix  3      [ ]         STREAM     CONNECTED     23365    /run/dbus/system_bus_
 
 ### Commands Explained (if needed) + Raspberry Pi Screenshots via scrot*
 
-*Note: I only took screenshots of those that at maximum filled up the screen.
+[Command Search](https://explainshell.com/) </br>
+*Note: I only took screenshots of those that at maximum filled up the screen. </br>
 
 **hostname**
 ![hostname on Pi](hostnamePi.png)
+```hostname``` is the name of the device (in this case Raspberry Pi). </br>
 
 **env** </br>
 </br>
+```env``` prints out enviornment variables. It's a lot due to my tinkering on my Raspberry Pi! </br>
 
 **ps**
 ![ps on Pi](psPi.png)
+```ps``` showcases the processes run on my Raspberry Pi. </br>
 
 **pwd**
 ![pwd on Pi](pwdPi.png)
+```pwd``` prints the working directory of my Pi. </br>
 
 **git clone, cd iot, ls, cd**
 ![iot on Pi](iotPi.png)
+Here are all the commands for the IoT GitHub repo: </br>
+```git clone``` clones a git repo. This will work all the time when you connect your git repo to your account but for SSH, you need to do more steps. </br>
+```cd iot``` will take the user into the iot folder we just downloaded from GitHub. </br>
+```ls``` lists the directories in the folder. In this case, it lists what is inside the iot folder.
+```cd``` will take one back up a directory. In this case, it takes the user back to the home directory.
 
 **df**
 ![df on Pi](dfPi.png)
+```df``` displays file system information. This is useful when checking how much space is left on your disk.
 
 **mkdir, cd demo, cat file, cp, mv, rm**
 ![file on Pi](filePi.png)
