@@ -652,7 +652,7 @@ I have installed Docker from an [IoT lesson repo](https://github.com/kevinwlu/io
 ![uname -a on Pi](unameWSL.jpg)
 
 **ifconfig** </br>
-![ifconfig on Pi](ifconfigWSL.jpg)
+![ifconfig on Pi](ifconfigWSL.jpg) </br>
 **Looks like ifconfig did not come preinstalled with my Ubuntu distribution via WSL. Unix made me install net-tools.** </br>
 
 **ping localhost** </br>
