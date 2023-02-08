@@ -60,7 +60,8 @@ Here are all the commands for the IoT GitHub repo: </br>
 
 ### df
 
-```df``` displays file system information. This is useful when checking how much space is left on your disk.
+```df``` displays file system information. This is useful when checking how much space is left on your disk. </br>
+```df -h``` with ```-h``` flag makes it human readable, i.e., makes bytes into MBs, GBs, etc.
 
 ### mkdir, cd demo, cat file, cp, mv, rm
 
@@ -84,7 +85,6 @@ To save and exit the file, ```ctrl + x```, ```Y```, then press ```Enter```.
 ### man uname
 
 ```man``` stands for manual. It will show the manual (RTM) for the command uname. </br>
-</br>
 
 ### uname -a
 
@@ -618,8 +618,42 @@ unix  3      [ ]         STREAM     CONNECTED     23365    /run/dbus/system_bus_
 **ifconfig**
 ![ifconfig on Pi](ifconfigPi.png)
 
+I have installed Docker from an [IoT lesson repo](https://github.com/kevinwlu/iot/tree/master/lesson8). Thus, this is why the Docker virtualization network interface shows up. </br>
+
 **ping localhost**
 ![ping on Pi](pingPi.png)
 
-**netstat** </br>
-netstat
+## Ubuntu Screenshots via Windows Susbsytem for Linux (WSL) from Snipping Tool on Windows*
+
+*Note: Scrot can be done. I do not have the time to setup GitHub's SSH keys in order to allow for pushing commits. </br>
+
+**hostname**
+![hostname on Pi](hostnameWSL.jpg)
+
+**ps**
+![ps on Pi](psWSL.jpg)
+
+**pwd**
+![pwd on Pi](pwdWSL.jpg)
+
+**git clone, cd iot, ls, cd**
+![iot on Pi](iotWSL.jpg)
+
+**df**
+![df on Pi](dfWSL.jpg)
+
+**mkdir, cd demo, cat file, cp, mv, rm**
+![file on Pi](fileWSL.jpg)
+
+**nano file**
+![nano on Pi](nanoWSL.jpg)
+
+**uname -a**
+![uname -a on Pi](unameWSL.jpg)
+
+**ifconfig**
+![ifconfig on Pi](ifconfigWSL.jpg)
+**Looks like ifconfig did not come preinstalled with my Ubuntu distribution via WSL. Unix made me install net-tools.** </br>
+
+**ping localhost**
+![ping on Pi](pingWSL.jpg)
