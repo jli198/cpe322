@@ -627,33 +627,33 @@ I have installed Docker from an [IoT lesson repo](https://github.com/kevinwlu/io
 
 *Note: Scrot can be done. I do not have the time to setup GitHub's SSH keys in order to allow for pushing commits. </br>
 
-**hostname**
+**hostname** </br>
 ![hostname on Pi](hostnameWSL.jpg)
 
-**ps**
+**ps** </br>
 ![ps on Pi](psWSL.jpg)
 
-**pwd**
+**pwd** </br>
 ![pwd on Pi](pwdWSL.jpg)
 
-**git clone, cd iot, ls, cd**
+**git clone, cd iot, ls, cd** </br>
 ![iot on Pi](iotWSL.jpg)
 
-**df**
+**df** </br>
 ![df on Pi](dfWSL.jpg)
 
-**mkdir, cd demo, cat file, cp, mv, rm**
+**mkdir, cd demo, cat file, cp, mv, rm** </br>
 ![file on Pi](fileWSL.jpg)
 
-**nano file**
+**nano file** </br>
 ![nano on Pi](nanoWSL.jpg)
 
-**uname -a**
+**uname -a** </br>
 ![uname -a on Pi](unameWSL.jpg)
 
-**ifconfig**
+**ifconfig** </br>
 ![ifconfig on Pi](ifconfigWSL.jpg)
 **Looks like ifconfig did not come preinstalled with my Ubuntu distribution via WSL. Unix made me install net-tools.** </br>
 
-**ping localhost**
+**ping localhost** </br>
 ![ping on Pi](pingWSL.jpg)
