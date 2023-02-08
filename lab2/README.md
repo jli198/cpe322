@@ -30,6 +30,79 @@ $ ping localhost
 $ netstat
 ```
 
+## What Do these Command Mean?
+
+[Command Explainer](https://explainshell.com/)
+
+### hostname
+
+```hostname``` is the name of the device (in this case Raspberry Pi).
+
+### env
+
+```env``` prints out enviornment variables. It's a lot due to my tinkering on my Raspberry Pi!
+
+### ps
+
+```ps``` showcases the processes run on my Raspberry Pi.
+
+### pwd
+
+```pwd``` prints the working directory of my Pi.
+
+### git clone, cd iot, ls, cd
+
+Here are all the commands for the IoT GitHub repo: </br>
+```git clone``` clones a git repo. This will work all the time when you connect your git repo to your account but for SSH, you need to do more steps. </br>
+```cd iot``` will take the user into the iot folder we just downloaded from GitHub. </br>
+```ls``` lists the directories in the folder. In this case, it lists what is inside the iot folder. </br>
+```cd``` will take one back up a directory. In this case, it takes the user back to the home directory.
+
+### df
+
+```df``` displays file system information. This is useful when checking how much space is left on your disk.
+
+### mkdir, cd demo, cat file, cp, mv, rm
+
+```mkdir demo``` will make a directory called demo. </br>
+```cd demo``` will take one into the newly minted demo directory. </br>
+```cat file``` concetenates files or standard input to standard input. tl;dr will display contents of a file.</br>
+```cp``` will copy a file into another file. ```cp file file1``` will copy the contents of file into file1. </br>
+```mv``` moves the file. This is how you rename the file by changing the name and you can move via directory paths. </br>
+```rm``` will remove and delete a file.
+
+### nano file
+
+```nano file``` initiates a file in text editor nano. Compared to Vi(m), nano is better imo. </br>
+One can click and enter text easily compared to navigating Vi(m) via keyboard controls. </br>
+To save and exit the file, ```ctrl + x```, ```Y```, then press ```Enter```.
+
+### clear
+
+```clear```: clears the screen. It removes the text currently on the CLI. </br>
+
+### man uname
+
+```man``` stands for manual. It will show the manual (RTM) for the command uname. </br>
+</br>
+
+### uname -a
+
+```uname -a``` prints system information. ```-a``` flag will print all the system information.
+
+### ifconfig
+
+```ifconfig``` showcases all the network config interfaces on one's device. One can find ethernet addresses, IP addresses, netmask, broadcast, etc.
+
+### ping localhost
+
+```ping localhost``` sends ICMP ECHO_REQUEST packets to network host(s) (in this case localhost).
+
+### netstat
+
+```netstat``` prints network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. </br>
+It is a long list as it looks like it shows Unix processes. DO NOT USE to find IP address/other network info.
+
 ## CLI on Raspberry Pi
 
 ```sh
@@ -514,51 +587,30 @@ unix  2      [ ]         DGRAM      CONNECTED     12514
 unix  3      [ ]         STREAM     CONNECTED     23365    /run/dbus/system_bus_socket
 ```
 
-### Commands Explained (if needed) + Raspberry Pi Screenshots via scrot*
+### Raspberry Pi Screenshots via scrot*
 
-[Command Search](https://explainshell.com/) </br>
 *Note: I only took screenshots of those that at maximum filled up the screen. </br>
 
 **hostname**
 ![hostname on Pi](hostnamePi.png)
-```hostname``` is the name of the device (in this case Raspberry Pi). </br>
-
-**env** </br>
-</br>
-```env``` prints out enviornment variables. It's a lot due to my tinkering on my Raspberry Pi! </br>
 
 **ps**
 ![ps on Pi](psPi.png)
-```ps``` showcases the processes run on my Raspberry Pi. </br>
 
 **pwd**
 ![pwd on Pi](pwdPi.png)
-```pwd``` prints the working directory of my Pi. </br>
 
 **git clone, cd iot, ls, cd**
 ![iot on Pi](iotPi.png)
-Here are all the commands for the IoT GitHub repo: </br>
-```git clone``` clones a git repo. This will work all the time when you connect your git repo to your account but for SSH, you need to do more steps. </br>
-```cd iot``` will take the user into the iot folder we just downloaded from GitHub. </br>
-```ls``` lists the directories in the folder. In this case, it lists what is inside the iot folder.
-```cd``` will take one back up a directory. In this case, it takes the user back to the home directory.
 
 **df**
 ![df on Pi](dfPi.png)
-```df``` displays file system information. This is useful when checking how much space is left on your disk.
 
 **mkdir, cd demo, cat file, cp, mv, rm**
 ![file on Pi](filePi.png)
 
 **nano file**
 ![nano on Pi](nanoPi.jpg)
-
-**clear** </br>
-```clear```: clears the screen. It removes the text currently on the CLI. </br>
-</br>
-
-**man uname** </br>
-</br>
 
 **uname -a**
 ![uname -a on Pi](unamePi.png)
