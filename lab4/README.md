@@ -44,7 +44,7 @@ MariaDB [mysql]> grant all privileges on stevens.* to pi@localhost;
 MariaDB [mysql]> quit
 ```
 
-[mariadb.jpg](mariadb.jpg)
+![mariadb.jpg](mariadb.jpg)
 
 ### Edit settings.py in ~/stevens/stevens
 
@@ -87,7 +87,7 @@ pi@raspberrypi:~/stevens/myapp/templates $ cd myapp
 pi@raspberrypi:~/stevens/myapp/templates/myapp $ cp ~/iot/lesson4/stevens/index.html .
 ```
 
-[two.jpg](two.jpg)
+![two.jpg](two.jpg)
 
 ## Enable Google Maps API*
 
@@ -138,7 +138,7 @@ Password (again): PASSWORD
 Superuser created successfully.
 ```
 
-[pythonint1](pythonint1.jpg)
+![pythonint1](pythonint1.jpg)
 
 ### Run Django server
 
@@ -146,7 +146,7 @@ Superuser created successfully.
 pi@raspberrypi:~/stevens $ python3 manage.py runserver
 ```
 
-[pythonint2](pythonint2.jpg)
+![pythonint2](pythonint2.jpg)
 
 ### Open the Chromium browser on Raspberry Pi via VNC Viewer
 
@@ -297,7 +297,7 @@ db.sqlite3  manage.py  myapp/  mycpu/
 ~/mycpu $ sudo pip install -U psutil
 ```
 
-[one.jpg](one.jpg)
+![one.jpg](one.jpg)
 
 ### After the first time, skip these three steps if no changes (MyCPU)
 
@@ -325,7 +325,7 @@ Superuser created successfully.
 ~/mycpu $ python manage.py runserver
 ```
 
-[initializeserver](initializeserver.jpg)
+![initializeserver.jpg](initializeserver.jpg)
 
 ### Open a browser
 
@@ -366,3 +366,7 @@ Superuser created successfully.
 ### Open a browser on another laptop and go to the server IP address
 
 ![mycpu.png](mycpu.jpg)
+
+## Flask
+
+![flask.jpg](flask.jpg)
