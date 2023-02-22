@@ -39,3 +39,7 @@ CPU Usage:   6.4 %
 ```
 
 ![lab5.jpg](lab5.jpg)
+
+## Sub and Pub Raspi
+
+[rpidata](https://docs.google.com/spreadsheets/d/1aaAv8jCtFTA9eNsab3ZEvfJGuYb_dVtfE7GiKSauwXs/edit?usp=sharing)
