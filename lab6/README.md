@@ -27,6 +27,13 @@ Type ".help" for more information.
 
 ### Run hello-world.js (Ubuntu)
 
+Use command `node` to run a file via Node.js
+
+```sh
+$ node hello-world.js
+Server running at http://127.0.0.1:3000/
+```
+
 ![hello-world.jpg](hello-world.jpg)
 
 ### Run hello.js (Ubuntu)
@@ -46,10 +53,9 @@ What? It's doing nothing!
 
 ![nothing.jpg](nothing.jpg)
 
-Let's access the localhost again. </br>
-Oh! It lists how many times it refreshes! Clever!
-
+Let's access the localhost again.
 ![http.jpg](http.jpg)
+Oh! It lists how many times it refreshes! Clever!
 
 ## Install Pystache (Ubuntu)
 
@@ -74,3 +80,64 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 ### Run Say Hello and its Mustache Counterpart (Ubuntu)
 
 ![say_hello.jpg](say_hello.jpg)
+
+## Confirm Node.js Installation (Raspberry Pi)*
+
+*I already installed Node.js beforehand.
+
+```sh
+$ node
+Welcome to Node.js v16.19.0.
+Type ".help" for more information.
+> 
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+> .exit
+```
+
+### Run hello-world.js (Raspberry Pi)
+
+Use command `node` to run a file via Node.js
+
+```sh
+$ node hello-world.js
+Server running at http://127.0.0.1:3000/
+```
+
+![hello-worldPi.jpg](hello-worldPi.jpg)
+
+### Run hello.js (Raspberry Pi)
+
+```sh
+Server running at http://127.0.0.1:8080/
+response end call done
+request end event fired
+```
+
+![helloPi.jpg](helloPi.jpg)
+
+Hm, looks like we don't have an issue. I think NPM when run on Windows (even through Ubuntu via WSL) will have node.js throw a hissy fit over privacy. </br>
+Linux definitely doesn't have any issues over this type of security in private IPs.
+
+### Run http.js (Raspberry Pi)
+
+What? It's doing nothing!
+
+![nothing.jpg](nothing.jpg)
+
+Let's access again the previous IP.
+
+![httpPi.jpg](httpPi.jpg)
+
+Oh! It lists how many times it refreshes! Clever!
+
+## Install Pystache (Raspberry Pi)
+
+```sh
+$ sudo pip3 install pystache
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Requirement already satisfied: pystache in /usr/local/lib/python3.9/dist-packages (0.6.0)
+```
+
+### Run Say Hello and its Mustache Counterpart (Raspberry Pi)
+
+![say_helloPi.jpg](say_helloPi.jpg)
