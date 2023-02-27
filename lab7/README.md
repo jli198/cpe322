@@ -12,9 +12,12 @@
 
 ![cpu_loop.jpg](cpu_loop.jpg)
 
-### thingspeak_cpu_loop.py (Raspberry Pi)
+### ThingSpeak (Raspberry Pi)*
 
-### thingspeak_feed.py (Raspberry Pi)
+*Note: I first did this exercise on 2023-01-12
+
+![channelstatsInitial](channelstatsInitial.jpg)
+![channelstatsFour](channelstatsFour.jpg)
 
 ## Install gspread and oauth2client (Raspberry Pi)
 
