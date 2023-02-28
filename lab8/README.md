@@ -93,3 +93,23 @@ Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /usr/local/lib/python3.10
 Requirement already satisfied: oauthlib>=3.0.0 in /usr/lib/python3/dist-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard<2.12,>=2.11->tensorflow) (3.2.0)
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 ```
+
+## Save Lab 7 Google sheet in CSV format to ~/demo
+
+[rpidata.csv](demo/rpidata.csv)
+
+## Copy ~/iot/lesson8/plt_final.py and plt_cv2.py to ~/demo
+
+[plt_final.py](demo/plt_final.py) </br>
+[plt_cv2.py](demo/plt_cv2.py)
+
+## Edit plt_final.py and plt_cv2.py to read CSV file with customized plot titles
+
+plt_final.py
+>>> data = read_csv('rpidata.csv')
+
+plt_cv2.py
+>>> X = read_csv('rpidata.csv', usecols=[1])
+>>> Y = read_csv('rpidata.csv', usecols=[2])
+
+## Run plt_final.py and plt_cv2.py (Raspberry Pi)
