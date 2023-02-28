@@ -71,7 +71,7 @@ Prerequisite: ENGR 321 Engineering Design V: Materials Selection and Process Opt
 Corequisite: CPE/EE 345 Modeling and Simulation </br>
 Cross-listed with: None </br>
 
-**Useful Links**
+**Useful Links** </br>
 [Department of Electrical and Computer Engineering](https://www.stevens.edu/school-engineering-science/departments/electrical-computer-engineering) </br>
 [Types of Advising](https://www.stevens.edu/academics/undergraduate-study/academic-resources) </br>
 [Academic Calendar](https://www.stevens.edu/page-basic/academic-calendar) </br>
