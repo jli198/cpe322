@@ -106,11 +106,11 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 ## Edit plt_final.py and plt_cv2.py to read CSV file with customized plot titles
 
 plt_final.py
->>> data = read_csv('rpidata.csv')
+> data = read_csv('rpidata.csv')
 
 plt_cv2.py
->>> X = read_csv('rpidata.csv', usecols=[1])
->>> Y = read_csv('rpidata.csv', usecols=[2])
+> X = read_csv('rpidata.csv', usecols=[1])
+> Y = read_csv('rpidata.csv', usecols=[2])
 
 ## Run plt_final.py and plt_cv2.py (Raspberry Pi)
 
