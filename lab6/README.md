@@ -34,16 +34,16 @@ $ node hello-world.js
 Server running at http://127.0.0.1:3000/
 ```
 
-![hello-world.jpg](hello-world.jpg)
+![hello-world.jpg](assets/hello-world.jpg)
 
 ### Run hello.js (Ubuntu)
 
-![helloFAIL.jpg](helloFAIL.jpg)
+![helloFAIL.jpg](assets/helloFAIL.jpg)
 
 Looks like it can't access the document. From what I've heard from [Professor Wellerstein](https://alexwellerstein.com/) in HST 325 Visualizing Society, this is a security protection as someone could spoof a domain and access files via Node. Let's try using localhost. </br>
 </br>
 
-![hello.jpg](hello.jpg)
+![hello.jpg](assets/hello.jpg)
 
 holy freaking bingle, it worked!
 
@@ -51,10 +51,10 @@ holy freaking bingle, it worked!
 
 What? It's doing nothing!
 
-![nothing.jpg](nothing.jpg)
+![nothing.jpg](assets/nothing.jpg)
 
 Let's access the localhost again.
-![http.jpg](http.jpg)
+![http.jpg](assets/http.jpg)
 Oh! It lists how many times it refreshes! Clever!
 
 ## Install Pystache (Ubuntu)
@@ -79,7 +79,7 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 
 ### Run Say Hello and its Mustache Counterpart (Ubuntu)
 
-![say_hello.jpg](say_hello.jpg)
+![say_hello.jpg](assets/say_hello.jpg)
 
 ## Confirm Node.js Installation (Raspberry Pi)*
 
@@ -103,7 +103,7 @@ $ node hello-world.js
 Server running at http://127.0.0.1:3000/
 ```
 
-![hello-worldPi.jpg](hello-worldPi.jpg)
+![hello-worldPi.jpg](assets/hello-worldPi.jpg)
 
 ### Run hello.js (Raspberry Pi)
 
@@ -113,7 +113,7 @@ response end call done
 request end event fired
 ```
 
-![helloPi.jpg](helloPi.jpg)
+![helloPi.jpg](assets/helloPi.jpg)
 
 Hm, looks like we don't have an issue. I think NPM when run on Windows (even through Ubuntu via WSL) will have node.js throw a hissy fit over privacy. </br>
 Linux definitely doesn't have any issues over this type of security in private IPs.
@@ -122,11 +122,11 @@ Linux definitely doesn't have any issues over this type of security in private I
 
 What? It's doing nothing!
 
-![nothing.jpg](nothing.jpg)
+![nothing.jpg](assets/nothing.jpg)
 
 Let's access again the previous IP.
 
-![httpPi.jpg](httpPi.jpg)
+![httpPi.jpg](assets/httpPi.jpg)
 
 Oh! It lists how many times it refreshes! Clever!
 
@@ -140,4 +140,4 @@ Requirement already satisfied: pystache in /usr/local/lib/python3.9/dist-package
 
 ### Run Say Hello and its Mustache Counterpart (Raspberry Pi)
 
-![say_helloPi.jpg](say_helloPi.jpg)
+![say_helloPi.jpg](assets/say_helloPi.jpg)
