@@ -145,7 +145,7 @@ module intrusiondetection {
 }
 ```
 
-Running `pyang -f yin...` will create intrusiondetection.yin
+Running `pyang -f yin -o intrusiondetection.yin intrusiondetection.yang` will create intrusiondetection.yin
 
 ```sh
 $ cat intrusiondetection.yin
@@ -277,9 +277,10 @@ the system.</text>
 </module>
 ```
 
-Running `pyang -f uml...` will create intrusiondetection.uml
+Running `pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef` will create intrusiondetection.uml
 
 ```sh
+$ cat intrusiondetection.uml
 'Download plantuml from http://plantuml.sourceforge.net/
 'Generate png with java -jar plantuml.jar <file>
 'Output in img/<module>.png
@@ -467,7 +468,7 @@ module intrusiondetection {
 }
 ```
 
-Running `pyang -f yin...` will create intrusiondetection.yin
+Running `pyang -f yin -o intrusiondetection.yin intrusiondetection.yang` will create intrusiondetection.yin
 
 ```sh
 $ cat intrusiondetection.yin
@@ -599,9 +600,10 @@ the system.</text>
 </module>
 ```
 
-Running `pyang -f uml...` will create intrusiondetection.uml
+Running `pyang -f uml -o intrusiondetection.uml intrusiondetection.yang --uml-no=stereotypes,annotation,typedef` will create intrusiondetection.uml
 
 ```sh
+$ cat intrusiondetection.uml
 'Download plantuml from http://plantuml.sourceforge.net/
 'Generate png with java -jar plantuml.jar <file>
 'Output in img/<module>.png
