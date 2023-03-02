@@ -82,7 +82,7 @@ $ cp ~/dsd/ghdl/*vhdl .
 
 **Fun Fact:** * is an indicator for file extensions. So it's copying all the files in the ghdl folder with the .vhdl file extension into our newly minted vhdl folder.
 
-![Terminal Results](installVHDL.jpg)
+![Terminal Results](assets/installVHDL.jpg)
 
 ## Hello World
 
@@ -97,7 +97,7 @@ $ ghdl -r hello_world
 Hello world!
 ```
 
-![Hello World](helloworld.jpg)
+![Hello World](assets/helloworld.jpg)
 
 **It works!!**
 
@@ -142,7 +142,7 @@ There is also a tab in the lower left with Type and Signals when the parent enti
 </br>
 After importing half_addr, there may not be anything. To see the whole digital signal, hold control and use the scroll wheel to scroll until the signal can be fully seen.
 
-![Half Adder Signal](halfAdder.jpg)
+![Half Adder Signal](assets/halfAdder.jpg)
 
 ### What is a Full-Adder?
 
@@ -170,7 +170,7 @@ Make sure to follow the steps in the Half Adder example to see the full digital 
 </br>
 *Note: I had to rearrange the signals after importing to match what was on the DSD repo.
 
-![Full-Adder Signal](fullAdder.jpg)
+![Full-Adder Signal](assets/fullAdder.jpg)
 
 ## Flip-Flop
 
@@ -201,7 +201,7 @@ GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 Note: When running `ghdl -r dff_tb --vcd=dff.vcd`, the file may not be able to open: `ghdl:error: cannot open dff.vcd`. Try putting sudo before the command. </br>
 Make sure to follow the steps in the Half Adder example to see the full digital signal. The entities will have different names, but the process will be the same.
 
-![D Flip-Flop Signal](dff.jpg)
+![D Flip-Flop Signal](assets/dff.jpg)
 
 ### What is a T Flip-Flop?
 
@@ -226,7 +226,7 @@ GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 
 Make sure to follow the steps in the Half Adder example to see the full digital signal. The entities will have different names, but the process will be the same.
 
-![T Flip-Flop Signal](tff.jpg)
+![T Flip-Flop Signal](assets/tff.jpg)
 
 ## Multiplexer
 
@@ -256,7 +256,7 @@ GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 
 Make sure to follow the steps in the Half Adder example to see the full digital signal. The entities will have different names, but the process will be the same.
 
-![4-to-1 Multiplexer Signal](mux.jpg)
+![4-to-1 Multiplexer Signal](assets/mux.jpg)
 
 ### What is a 1-to-4 Demultiplexer?
 
@@ -283,7 +283,7 @@ Make sure to follow the steps in the Half Adder example to see the full digital 
 </br>
 *Note: I had to rearrange the f signal to be at the bottom to match the repo.
 
-![1-to-4 Demultiplexer Signal](demux.jpg)
+![1-to-4 Demultiplexer Signal](assets/demux.jpg)
 
 ## SR Flip-flop
 
@@ -308,7 +308,7 @@ GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
 
 Make sure to follow the steps in the Half Adder example to see the full digital signal. The entities will have different names, but the process will be the same.
 
-![SR Flip-flop Signal](sr_ff.jpg)
+![SR Flip-flop Signal](assets/sr_ff.jpg)
 
 ## 8-bit Square Root
 
@@ -344,7 +344,7 @@ Make sure to follow the steps in the Half Adder example to see the full digital 
 </br>
 *Note: there's more than what's in the screenshot.
 
-![8-bit Square Root Signal](sqrt8.jpg)
+![8-bit Square Root Signal](assets/sqrt8.jpg)
 
 ## References
 
