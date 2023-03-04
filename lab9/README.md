@@ -338,7 +338,23 @@ $ python3 -m plantuml intrusiondetection.uml
 
 ```sh
 $ sudo apt install libxml2-dev libxslt1-dev
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+libxml2-dev is already the newest version (2.9.10+dfsg-6.7+deb11u3).
+libxslt1-dev is already the newest version (1.1.34-4+deb11u1).
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+
 $ sudo pip3 install -U lxml pyang
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Requirement already satisfied: lxml in /usr/local/lib/python3.9/dist-packages (4.9.2)
+Collecting lxml
+  Using cached lxml-4.9.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.manylinux_2_24_aarch64.whl (6.8 MB)
+  Using cached lxml-4.9.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.manylinux_2_24_aarch64.whl (6.6 MB)
+Requirement already satisfied: pyang in /usr/local/lib/python3.9/dist-packages (2.5.3)
+Collecting pyang
+  Using cached https://www.piwheels.org/simple/pyang/pyang-2.5.3-py2.py3-none-any.whl (593 kB)
+  Using cached https://www.piwheels.org/simple/pyang/pyang-2.5.2-py2.py3-none-any.whl (595 kB)
 ```
 
 ## Run pyang -> generate intrusiondetection.yin and intrusiondetection.uml (Raspberry Pi)
@@ -655,4 +671,4 @@ $ python3 -m plantuml intrusiondetection.uml
 [{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
 
-![intrusiondetectionRaspberryPi.jpg](intrusiondetectionRaspberryPi.jpg)
+![intrusiondetectionRaspberryPi.jpg](intrusiondetectionPi.jpg)
