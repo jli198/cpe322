@@ -671,4 +671,4 @@ $ python3 -m plantuml intrusiondetection.uml
 [{'filename': 'intrusiondetection.uml', 'gen_success': True}]
 ```
 
-![intrusiondetectionRaspberryPi.jpg](intrusiondetectionPi.jpg)
+![intrusiondetectionRaspberryPi.jpg](demo/intrusiondetectionPi.png)
