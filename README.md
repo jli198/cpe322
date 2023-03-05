@@ -103,7 +103,7 @@ I aspire to be in the IT, Cybersecurity, and/or Cloud Computing fields. I eventu
   * MP3 researchers and audio engineers found that some alpha versions of MP3 will compress and distort the song
   * Its clarity allowed the refinement of the MP3 codec
 
-## Course Larning Objectives
+## Course Learning Objectives
 
 Program Outcome 1: (Complex Problem Solving) </br>
 
