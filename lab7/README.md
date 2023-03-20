@@ -12,7 +12,7 @@
 
 ![cpu_loop.jpg](cpu_loop.jpg)
 
-### ThingSpeak (Raspberry Pi)*
+### ThingSpeak*
 
 *Note: I first did this exercise on 2023-01-12 but I recorded only 2 data points.
 This image below shows 7 entries running `thingspeak_feed.py`.
@@ -79,12 +79,6 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 
 ## Google Cloud Platform Identity and Access Management
 
-### cpudata Google sheet
+### rpidata Google Spreadsheet
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1aaAv8jCtFTA9eNsab3ZEvfJGuYb_dVtfE7GiKSauwXs/edit?usp=sharing)
-
-### cpu_spreadsheet.py (Raspberry Pi)*
-
-*Completed on 2023-01-11
-
-[Data in Google Sheet](https://docs.google.com/spreadsheets/d/1aaAv8jCtFTA9eNsab3ZEvfJGuYb_dVtfE7GiKSauwXs/edit?usp=sharing)
+[Google Spreadsheet](https://docs.google.com/spreadsheets/d/1aaAv8jCtFTA9eNsab3ZEvfJGuYb_dVtfE7GiKSauwXs/edit?usp=sharing)
