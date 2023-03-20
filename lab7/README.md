@@ -14,10 +14,10 @@
 
 ### ThingSpeak (Raspberry Pi)*
 
-*Note: I first did this exercise on 2023-01-12
+*Note: I first did this exercise on 2023-01-12 but I recorded only 2 data points.
+This image below shows 7 entries running `thingspeak_feed.py`.
 
-![channelstatsInitial](channelstatsInitial.jpg)
-![channelstatsFour](channelstatsFour.jpg)
+![thingspeak_feed.jpg](thingspeak_feed.jpg)
 
 ## Install gspread and oauth2client (Raspberry Pi)
 
