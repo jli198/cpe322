@@ -88,7 +88,6 @@ Cross-listed with: None </br>
 * [Course Website](https://sites.google.com/view/ece322)
 * [Project Website](https://sites.google.com/stevens.edu/cpe322-23s-proj13/)
 * [IoT GitHub Repo](https://github.com/jli198/iot)
-* [LinkedIn](https://linkedin.com/in/jli247247)
 
 ## Who Am I?
 
@@ -98,7 +97,6 @@ I aspire to be in the IT, Cybersecurity, and/or Cloud Computing fields. I eventu
 ## Fun Facts
 
 * GitHub will display README.txt as well as the standard README.md
-* I play the [drums on this electronic kit](https://www.roland.com/us/products/td-1k/)
 * Suzanne Vega's a capella song [Tom's Diner](https://en.wikipedia.org/wiki/Tom%27s_Diner) is known as the "Mother of MP3"
   * MP3 researchers and audio engineers found that some alpha versions of MP3 will compress and distort the song
   * Its clarity allowed the refinement of the MP3 codec

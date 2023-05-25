@@ -1,0 +1,175 @@
+# Tools
+## YouTube Channel
+* [Academind](https://www.youtube.com/@academind)
+* [Andreas Spiess](https://www.youtube.com/@AndreasSpiess)
+* [Learn Linux TV](https://www.youtube.com/@LearnLinuxTV)
+## Platform
+* [Comparison of platform virtualization software](https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software)
+* [Canva](https://en.wikipedia.org/wiki/Canva)
+* [Proxmox Virtual Environment](https://en.wikipedia.org/wiki/Proxmox_Virtual_Environment)
+## 3D Printing
+* [3D printing](https://en.wikipedia.org/wiki/3D_printing)
+* [List of 3D printer manufacturers](https://en.wikipedia.org/wiki/List_of_3D_printer_manufacturers)
+* [Creality](https://en.wikipedia.org/wiki/Creality)
+* [MakerBot](https://en.wikipedia.org/wiki/MakerBot)
+* [RepRap project](https://en.wikipedia.org/wiki/RepRap_project)
+* [Ultimaker](https://en.wikipedia.org/wiki/Ultimaker)
+## Animation
+* [Cascadeur](https://cascadeur.com/)
+## App Development
+* [MIT App Inventor](https://en.wikipedia.org/wiki/MIT_App_Inventor)
+  * [MIT App Inventor](https://appinventor.mit.edu/)
+* [Mobile app development](https://en.wikipedia.org/wiki/Mobile_app_development)
+## Artificial Intelligence (AI)
+* [Adobe Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html)
+* [AI generated content](https://github.com/gongminmin/awesome-aigc) (AIGC) by [Minmin Gong](https://www.linkedin.com/in/minmin-gong-51323138/)
+  * [Technology readiness level](https://en.wikipedia.org/wiki/Technology_readiness_level) (TRL)
+* [AI Query](https://www.aiquery.co/)
+* [AI Code Reviewer](https://ai-code-reviewer.com/)
+* [AnimeGAN.js](https://animegan.js.org/)
+* [Baidu](https://en.wikipedia.org/wiki/Baidu)
+  * [How to register Baidu account outside China](https://www.adchina.io/how-to-open-a-baidu-account-outside-china/)
+  * [ERNIE Bot](https://yiyan.baidu.com/)
+* [Copy.ai](https://www.copy.ai/)
+* [CustomGPT](https://customgpt.ai/)
+* [DeepL](https://www.deepl.com/)
+* [GPTZero](https://gptzero.me/) requires at least 250 characters
+* [GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot)
+  * [GitHub Copilot X](https://github.com/features/preview/copilot-x)
+* [Google AI](https://ai.google/tools/)
+  * [AI Hub](https://aihub.cloud.google.com/u/0/)
+  * [Bard](https://bard.google.com/)
+  * [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
+  * [DreamFusion](https://dreamfusion3d.github.io/)
+  * [LaMDA](https://blog.google/technology/ai/lamda/), May 18, 2021
+* [Google Research](https://research.google/tools/)
+* [Ghostwriter](https://replit.com/site/ghostwriter) by [Replit](https://en.wikipedia.org/wiki/Replit)
+* [HTTPie](https://httpie.io/)
+* [Hugging Face](https://en.wikipedia.org/wiki/Hugging_Face)
+  * [HuggingGPT](https://huggingface.co/spaces/microsoft/HuggingGPT)
+* [Inflection](https://inflection.ai/)
+* [Jenni](https://jenni.ai/)
+* [Khroma](https://www.khroma.co/)
+* [Meta AI](https://en.wikipedia.org/wiki/Meta_AI)
+  * [BlenderBot](https://blenderbot.ai/)
+  * [BlenderBot 3](https://parl.ai/projects/bb3/) (BB3)
+  * [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/), February 24, 2023
+* [Natural language generation](https://en.wikipedia.org/wiki/Natural_language_generation) (NLG)
+* [OpenAI](https://openai.com/)
+  * [ChatGPT](https://chat.openai.com/chat)
+  * [ChatGPT plugins](https://openai.com/blog/chatgpt-plugins), March 23, 2023
+  * [AI Text Classifier](https://platform.openai.com/ai-text-classifier) requires at least 1,000 characters, which is approximately 150 - 250 words
+* [Feedback by AI](https://feedbackbyai.com/)
+  * [AI Characters](https://feedbackbyai.com/characters)
+* [Detect GPT](https://chrome.google.com/webstore/detail/detect-gpt/oadkgbgppkhoaaoepjbcnjejmkknaobg)
+* [GPTZero](https://gptzero.me/)
+  * [Perplexity](https://en.wikipedia.org/wiki/Perplexity) (*PP*) is a measurement of the randomness of the text\
+    A low perplexity indicates the probability distribution is good at predicting the sample.
+  * [Burstiness](https://en.wikipedia.org/wiki/Burstiness) is a measurement of the variation in perplexity
+* [AI Detector](https://contentatscale.ai/ai-content-detector/)
+* [Open Neural Network Exchange](https://en.wikipedia.org/wiki/Open_Neural_Network_Exchange) (ONNX)
+* [Peppertype.ai](https://www.peppertype.ai/)
+* [Posemaniacs](https://www.posemaniacs.com/en)
+* [Shuffle](https://shuffle.dev/)
+  * [Shuffle Assistant](https://shuffle.dev/chat)
+* [Snapchat](https://en.wikipedia.org/wiki/Snapchat)
+  * [My AI](https://newsroom.snap.com/say-hi-to-my-ai), February 27, 2023
+* [Stability AI](https://stability.ai/)
+* [Synthesia](https://www.synthesia.io/)
+* [Tome](https://beta.tome.app/)
+## Book Summarizing
+* [Blinkist](https://en.wikipedia.org/wiki/Blinkist)
+* [BookRag](http://www.bookrags.com/)
+* [GetAbstract](https://en.wikipedia.org/wiki/GetAbstract)
+## Chat
+* [Comparison of cross-platform instant messaging clients](https://en.wikipedia.org/wiki/Comparison_of_cross-platform_instant_messaging_clients)
+  * [Instant messaging](https://en.wikipedia.org/wiki/Instant_messaging) (IM)
+* [Comparison of Internet Relay Chat clients](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
+  * [Online chat](https://en.wikipedia.org/wiki/Online_chat)
+  * [Internet Relay Chat](https://en.wikipedia.org/wiki/Internet_Relay_Chat) (IRC)
+* [HexChat](https://en.wikipedia.org/wiki/HexChat)
+* [Libera Chat](https://en.wikipedia.org/wiki/Libera_Chat)
+* [TerminalGPT](https://github.com/jucasoliveira/terminalGPT)
+## Collaboration
+* [Miro (collaboration platform)](https://en.wikipedia.org/wiki/Miro_(collaboration_platform))
+* [Spline](https://spline.design/)
+* [Whiteboarding](https://en.wikipedia.org/wiki/Whiteboarding)
+## Computer-Aided Design Software
+* [Comparison of computer-aided design software](https://en.wikipedia.org/wiki/Comparison_of_computer-aided_design_software)
+* [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD)
+* [FreeCAD](https://en.wikipedia.org/wiki/FreeCAD)
+* [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD)
+* [OpenSCAD](https://en.wikipedia.org/wiki/OpenSCAD)
+* [SolidWorks](https://en.wikipedia.org/wiki/SolidWorks)
+* [Tinkercad](https://en.wikipedia.org/wiki/Tinkercad)
+## Content Similarity Detection
+* [Content similarity detection](https://en.wikipedia.org/wiki/Content_similarity_detection)
+* [Comparison of anti-plagiarism software](https://en.wikipedia.org/wiki/Comparison_of_anti-plagiarism_software)
+  * [Turnitin](https://en.wikipedia.org/wiki/Turnitin)
+* [VeriGuide](https://veriguide1.cse.cuhk.edu.hk/portal/plagiarism_detection/index.jsp)
+* [Originality.AI](https://originality.ai/)
+## Data Analysis and Visulization
+* [Data analysis](https://en.wikipedia.org/wiki/Data_analysis)
+* [Google Marketing Platform](https://en.wikipedia.org/wiki/Google_Marketing_Platform)
+  * [Google Data Studio](https://marketingplatform.google.com/about/data-studio/)
+* [Pivot table](https://en.wikipedia.org/wiki/Pivot_table)
+## Diversity, Equality, and Inclusion (DEI)
+* [Diversity, equity, and inclusion](https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion)
+* [Ongig](https://www.ongig.com/)
+## Finite Element Analysis
+* [Finite element method](https://en.wikipedia.org/wiki/Finite_element_method) (FEM)
+* [COMSOL Multiphysics](https://en.wikipedia.org/wiki/COMSOL_Multiphysics)
+## Languages
+* [Duolingo](https://en.wikipedia.org/wiki/Duolingo)
+* [Forvo](https://en.wikipedia.org/wiki/Forvo)
+## Note Taking
+* [Notion](https://en.wikipedia.org/wiki/Notion_(productivity_software))
+* [Obsidian](https://en.wikipedia.org/wiki/Obsidian_(software))
+## Object Detection and Facial Recognition
+* [Facial recognition system](https://en.wikipedia.org/wiki/Facial_recognition_system)
+  * [Local binary patterns](https://en.wikipedia.org/wiki/Local_binary_patterns) (LBP)
+* [Object detection](https://en.wikipedia.org/wiki/Object_detection)
+* [OpenMV](https://github.com/openmv/openmv)
+## Problem and Decision Analysis
+* [Kepner-Tregoe](https://kepner-tregoe.com/) (KT)
+## Proof Assitant
+* [Proof assistant](https://en.wikipedia.org/wiki/Proof_assistant)
+* [Coq](https://en.wikipedia.org/wiki/Coq)
+## Robotics
+* [Gazebo simulator](https://en.wikipedia.org/wiki/Gazebo_simulator)
+* [Robot Operating System](https://en.wikipedia.org/wiki/Robot_Operating_System) (ROS)
+## Search Engines
+* [List of search engines](https://en.wikipedia.org/wiki/List_of_search_engines)
+* [Search engine optimization](https://en.wikipedia.org/wiki/Search_engine_optimization) (SEO)
+* [DuckDuckGo](https://en.wikipedia.org/wiki/DuckDuckGo)
+* [Ecosia](https://en.wikipedia.org/wiki/Ecosia)
+* [Fabric](https://fabric.so/)
+## Social Network
+* [Social network](https://en.wikipedia.org/wiki/Social_network)
+* [List of social networking services](https://en.wikipedia.org/wiki/List_of_social_networking_services)
+* [Comparison of software and protocols for distributed social networking](https://en.wikipedia.org/wiki/Comparison_of_software_and_protocols_for_distributed_social_networking)
+* [Comparison of microblogging and similar services](https://en.wikipedia.org/wiki/Comparison_of_microblogging_and_similar_services)
+* [Bluesky Social](https://en.wikipedia.org/wiki/Bluesky_Social)
+* [Diaspora](https://en.wikipedia.org/wiki/Diaspora_(social_network))
+* [GNU social](https://en.wikipedia.org/wiki/GNU_social)
+* [Mastodon](https://en.wikipedia.org/wiki/Mastodon_(social_network))
+* [Nostr](https://en.wikipedia.org/wiki/Nostr)
+## Static Program Analysis
+* [Static program analysis](https://en.wikipedia.org/wiki/Static_program_analysis)
+* [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+* [Coverity](https://en.wikipedia.org/wiki/Coverity)
+* [Pylint](https://en.wikipedia.org/wiki/Pylint)
+## User Interface and User Experience
+* [Comparison of vector graphics editors](https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors)
+* [Figma](https://en.wikipedia.org/wiki/Figma_(software))
+* [React Native](https://en.wikipedia.org/wiki/React_Native)
+  * [React (JavaScript library)]()https://en.wikipedia.org/wiki/React_(JavaScript_library)
+  * [Preact](https://preactjs.com/)
+* [Selenium](https://www.selenium.dev/)
+* [Speech Services](https://en.wikipedia.org/wiki/Speech_Services)
+## Web Browsers
+* [List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)
+* [Arc](https://arc.net/)
+  * [The Browser Company](https://thebrowser.company/)
+## Web Design
+* [STUDIO AI](https://studio.design/)
